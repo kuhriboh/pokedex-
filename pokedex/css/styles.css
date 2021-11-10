@@ -1,0 +1,62 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.navbar-logo {
+  font-size: 60px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  background-color: #20B2AA;
+  color: #000080;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+button:hover, button:focus {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button__secondary {
+  background-color: #e0b354;
+  color: #ffffff;
+}
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.modal-content {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.modal-header {
+  background-color: #454545;
+  height: 50px;
+  display: flex;
+}
+
+.modal-title {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 2%;
+  position: absolute;
+  color: white;
+}
